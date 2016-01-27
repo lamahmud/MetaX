@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>iTunes MetaX Plugin</string>
+	<key>CFBundleGetInfoString</key>
+	<string>iTunes MetaX Plugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.MetaXPlugin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>iTunes MetaX Plugin</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>iTunes MetaX Plugin</string>
+	<key>CFBundleSignature</key>
+	<string>MTXP</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>CEEFF462-6C32-11D6-A15C-0050E4591B3C</key>
+		<string>pluginFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>CEEFF462-6C32-11D6-A15C-0050E4591B3C</key>
+		<array>
+			<string>555E36BA-3D9C-450E-AFE3-D94D916BADAB</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+</dict>
+</plist>
